@@ -59,8 +59,8 @@ function draw() { // this function code runs in infinite loop
             line(skeleton[j][0].position.x, skeleton[j][0].position.y, skeleton[j][1].position.x, skeleton[j][1].position.y);
         }
         // Apply specs and cigar
-        image(specs, singlePose.nose.x-40, singlePose.nose.y-70, 125, 125);
-        image(smoke, singlePose.nose.x-35, singlePose.nose.y+28, 50, 50);
+        image(auramask, singlePose.nose.x-40, singlePose.nose.y-70, 125, 125);
+        
     }
     
     //background(200);
